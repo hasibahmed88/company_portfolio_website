@@ -2,6 +2,9 @@
     body {
       
     }
+    nav ul li{
+        text-align: center;
+    }
     .about-us-header h2, .our-service-header h2, .our-work-header h2, .our-team-header h2, .testimonial-header h2, .contact-header h2{
         font-size:25px;
     }
