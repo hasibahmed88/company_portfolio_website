@@ -1,0 +1,56 @@
+@media only screen and (max-width: 650px) {
+    body {
+      
+    }
+    .about-us-header h2, .our-service-header h2, .our-work-header h2, .our-team-header h2, .testimonial-header h2, .contact-header h2{
+        font-size:25px;
+    }
+    .about-us-header h2::after , .our-service-header h2::after, .our-work-header h2::after, .our-team-header h2::after, .testimonial-header h2::after, .contact-header h2::after{
+        content:"";
+        height:45px;
+        border:3px solid #ddd;
+        bottom:-8px;
+    }
+    .about-us-header p, .our-service-header p, .our-work-header p, .our-team-header p, .testimonial-header p, .contact-header p{
+        font-size:16px;
+        line-height: 30px;
+        border-left:2px solid #f73849;
+        padding-left:8px;
+     }
+
+     /*  Carousel */
+
+     .carousel-caption{
+        position:absolute;
+        top:40%;
+    
+    }
+    .carousel-caption h5{
+        font-size:25px;
+        text-transform:uppercase;
+        margin-top:20px;
+    }
+    .carousel-caption h3{
+        font-size:40px;
+        color:#f73849;
+    }
+    .carousel-caption p{
+        width:70%;
+        margin:auto;
+        font-size:14px;
+        line-height:1.8;
+    }
+
+    #contact-form{
+        height: 115vh;
+    }
+    .contact-form-content{
+        top:60%;
+    }
+    .video-content{
+        margin-top:50px;
+    }
+
+    
+    
+  }
